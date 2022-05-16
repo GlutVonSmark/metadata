@@ -7,7 +7,7 @@ export const GeneratedInfo = () => {
                 GENERATED CLASSIFICATION HIERARCHIES BASED ON CURRENT PORTFOLIO
             </h3>
             Download Link:
-            <a href=''>
+            <a href='#'>
                 https://somethingsomethingsomethis_s3_bucket_something.csv
             </a>
         </>
