@@ -1,5 +1,4 @@
 import React from 'react';
-import tableImage from '../table.png';
 
 const GeneratedInfo = ({ isGenerated }) => {
     const text = isGenerated
