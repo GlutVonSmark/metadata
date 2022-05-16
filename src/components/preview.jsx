@@ -11,15 +11,18 @@ const GeneratedInfo = ({ isGenerated }) => {
         : 'Hierachy_Neste_FR_QA_Structure_22-04-25_3levels (1).csv';
 
     const style = isGenerated
-        ? { marginLeft: '5px' }
+        ? {
+              marginLeft: '5px',
+              textDecoration: 'underline',
+              color: 'blue',
+              cursor: 'pointer',
+          }
         : { textDecoration: 'none', color: '#999' };
     return (
         <>
             <h3 style={{ marginBottom: '0px' }}>{text}</h3>
             {isGenerated && <span>Download Link:</span>}
-            <a href='' style={style}>
-                {link}
-            </a>
+            <span style={style}>{link}</span>
         </>
     );
 };

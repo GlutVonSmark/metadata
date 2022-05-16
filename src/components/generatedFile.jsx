@@ -7,9 +7,16 @@ export const GeneratedInfo = () => {
                 GENERATED CLASSIFICATION HIERARCHIES BASED ON CURRENT PORTFOLIO
             </h3>
             Download Link:
-            <a href='#'>
+            <span
+                style={{
+                    textDecoration: 'underline',
+                    color: 'blue',
+                    cursor: 'pointer',
+                    marginLeft: '5px',
+                }}
+            >
                 https://somethingsomethingsomethis_s3_bucket_something.csv
-            </a>
+            </span>
         </>
     );
 };
